@@ -1,8 +1,3 @@
-#include<ctype.h>
-#include<cs50.h>
-#include <stdio.h>
-#include <assert.h>
-#include <string.h>
 string ari(string s)
 {
     int i = 0;
@@ -17,7 +12,7 @@ string ari(string s)
         i++;
     }
     float ari = (4.71 * (float)charct / (float)word + (0.5 * (float)word) / (float)sentence) - 21.43;
-    int num = int(ari);
+    int num = (int)ari;
     if(ari > (float)num)
         num++;
     switch(num) {
