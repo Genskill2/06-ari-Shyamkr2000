@@ -1,3 +1,8 @@
+#include<ctype.h>
+#include<cs50.h>
+#include <stdio.h>
+#include <assert.h>
+#include <string.h>
 string ari(string s)
 {
     int i = 0;
@@ -17,46 +22,46 @@ string ari(string s)
         num++;
     switch(num) {
     case 1:
-        return "Kindergarten";
+        return ("Kindergarten");
         break;
     case 2:
-        return "First/Second Grade";
+        return ("First/Second Grade");
         break;
     case 3:
-        return "Third Grade";
+        return ("Third Grade");
         break;
     case 4:
-        return "Fourth Grade";
+        return ("Fourth Grade");
         break;
     case 5:
-        return "Fifth Grade";
+        return ("Fifth Grade");
         break;
     case 6:
-        return "Sixth Grade";
+        return ("Sixth Grade");
         break;
     case 7:
-        return "Seventh Grade";
+        return ("Seventh Grade");
         break;
     case 8:
-        return "Eighth Grade";
+        return ("Eighth Grade");
         break;
     case 9:
-        return "Ninth Grade";
+        return ("Ninth Grade");
         break;
     case 10:
-        return "Tenth Grade";
+        return ("Tenth Grade");
         break;
     case 11:
-        return "Eleventh Grade";
+        return ("Eleventh Grade");
         break;
     case 12:
-        return "Twelfth grade";
+        return ("Twelfth grade");
         break;
     case 13:
-        return "College student";
+        return ("College student");
         break;
     default:
-        return "Professor";
+        return ("Professor");
         break;
     }
 }
